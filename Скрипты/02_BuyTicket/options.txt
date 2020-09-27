@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\askar\Desktop\x\Скрипты\02_BuyTicket
+-IC:\APPLANA\LR\include
+-ec:\users\askar\desktop\x\скрипты\02_buyticket\\logfile.log
+c:\users\askar\desktop\x\скрипты\02_buyticket\\combined_02_BuyTicket.c
+c:\users\askar\desktop\x\скрипты\02_buyticket\\pre_cci.c
