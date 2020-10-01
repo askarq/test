@@ -10,7 +10,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T17237852T
+TableName=T33000532T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -25,7 +25,7 @@ IdsToStrs=1
 StdMonitor=0
 HiddenFunctions=
 NumBasicFilters=1
-NumAdditionalFilters=1
+NumAdditionalFilters=2
 NumRawDataFilters=0
 HiddenDimensions=
 BasicGroupBy=Transaction End Status
@@ -84,6 +84,17 @@ Dim_6=login
 Dim_7=logout
 LikeMode=0
 
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=300.000000
+Dim_1=3900.000000
+
 [DimensionFunctions]
 DimeFuncCount=1
 DimeFuncType0=FuncFragment
@@ -95,7 +106,7 @@ DimensionFragmentValues_UI0=!([Value]-[Think Time])!
 [Granularity]
 Dimension=Scenario Elapsed Time
 TimeScaleType=2
-Granularity=64
+Granularity=128
 BaseGranularityUIName=
 MinimumDefaultGranularity=64
 

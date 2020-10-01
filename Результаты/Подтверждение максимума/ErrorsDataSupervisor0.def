@@ -1,5 +1,5 @@
 ﻿[ErrorsDataSupervisor_BasicInfo]
-NumFilters=1
+NumFilters=2
 
 [AdditionalFilter0]
 DimensionType=Discrete
@@ -19,6 +19,17 @@ Dim_5=fill_pay_info
 Dim_6=login
 Dim_7=logout
 LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=300.000000
+Dim_1=3900.000000
 
 [DimensionFunctions]
 DimeFuncCount=1
